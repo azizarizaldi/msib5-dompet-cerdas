@@ -14,7 +14,7 @@ Membuat tema aplikasi sederhana yaitu __DOMPET CERDAS__.
 
 __Dompet Cerdas__ merupakan sebuah aplikasi manajemen keuangan pribadi yang dirancang untuk membantu pengguna melacak, mengelola, dan merencanakan pengeluaran dan pemasukan dengan mudah.
 
-Tujuan utama dari aplikasi ini adalah __membantu kita (pengguna) mengelola keuangan pribadidengan lebih baik, mengurangi pemborosan, dan merencanakan keuangan secara efisien__. 
+Tujuan utama dari aplikasi ini adalah __membantu kita (pengguna) mengelola keuangan pribadi dengan lebih baik, mengurangi pemborosan, dan merencanakan keuangan secara efisien__. 
 
 __Dompet Cerdas__ cocok untuk siapa saja yang ingin mengendalikan pemasukan, pengeluaran dan mengembangkan kebiasaan keuangan yang lebih baik.
 
