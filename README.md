@@ -1,4 +1,4 @@
-## Hallo semuanya <img width="25" src="[public/images/waving-hand.gif](https://blog.joypixels.com/content/images/2019/06/waving_hand_sign_1024.gif)"> 
+## Hallo semuanya <img width="25" src="https://blog.joypixels.com/content/images/2019/06/waving_hand_sign_1024.gif"> 
 
 Repo ini digunakan untuk brainstorming aplikasi sederhana secara berkelompok, tujuannya untuk memenuhi salah satu tugas pada Program Magang dan Studi Independen Bersertifikat (__MSIB__) yang diselenggarakan oleh [Gits.id](https://gits.id/).
 
