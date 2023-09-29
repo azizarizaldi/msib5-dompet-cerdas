@@ -13,13 +13,16 @@ return new class extends Migration
     {
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
-            $table->integer('nominal');
-            $table->enum('type', ['credit', 'debit']);
-            $table->string('transaction_name', 255);
-            $table->date('transaction_date');
-            $table->string('attachment');
-            $table->timestamps();
+            $table->foreignId('users_id');
+            $table->foreign('users_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
+            $table->double('nominal')->nullable();
+            $table->enum('type', ['credit', 'debit'])->default('credit');;
+            $table->string('transaction_name', 255)->nullable();
+            $table->date('transaction_date')->nullable();
+            $table->string('attachment')->nullable();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();            
+            $table->softDeletes();
         });
     }
 

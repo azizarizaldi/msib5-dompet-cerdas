@@ -15,20 +15,20 @@ class UserSeeder extends Seeder
     {
         // Seed data
         User::create([
-            'username' => 'admin',
+            'username' => 'admininistrator',
             'fullname' => 'Administrator',
             'email' => 'admin@example.com',
             'password' => bcrypt('password'),
             'phone' => '+628123456789',
         ]);
 
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 1; $i < 10; $i++) {
             User::create([
-                'username' => 'user' . $i,
+                'username' => 'user-' . $i,
                 'fullname' => 'User ' . $i,
                 'email' => 'user' . $i . '@example.com',
                 'password' => bcrypt('password'),
-                'phone' => '+62812345678' . $i,
+                'phone' => '+6281234567' . $i,
             ]);
         }
     }

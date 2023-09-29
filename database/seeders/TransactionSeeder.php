@@ -19,9 +19,9 @@ class TransactionSeeder extends Seeder
 
         foreach ($users as $user) {
             // Create 10 transactions for each user
-            for ($i = 0; $i < 10; $i++) {
+            for ($i = 1; $i < 10; $i++) {
                 Transaction::create([
-                    'user_id' => $user->id,
+                    'users_id' => $user->id,
                     'nominal' => random_int(10000, 100000),
                     'type' => random_int(0, 1) ? 'credit' : 'debit',
                     'transaction_name' => 'Transaction ' . $i,
